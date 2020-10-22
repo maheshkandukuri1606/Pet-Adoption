@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+body {
+  background-image: url("../images/bgImage.jpg");
+}
+
+main {
+	margin-top: 100px;
+	
+}
+
+.footer {
+	bottom: 0px;
+    position: absolute;
+    border: 1px solid beige;
+    background-color: cadetblue;
+    padding: 0px;
+}
+
+.carousel-item {
+	margin-left: 600px;
+}
+
+.about-para{
+		color: cornsilk;
+		font-size: 30px;
+		
+}
+
