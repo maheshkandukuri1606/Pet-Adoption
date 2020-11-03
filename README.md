@@ -32,13 +32,13 @@ Following is an illustration of ER Diagram
 
 User: One to Many
 Animal: Many to One
-# Each animal can have only one owner
-# Each owner can have multiple animals
+Each animal can have only one owner
+Each owner can have multiple animals
 Columns in User table: user id, email, username, age, Date of Birth, address, phone Number, password,
 housing type, reason, gender, image, income, role, ssn
 Columns in animal table: animal id, animal Name, date of Birth, Diseases, Animal Type, Age, Breed, Color
 # Roles:
 Adopter: can signup the form and choose animals for adoption, can check his status
-# Donor: can signup the form and list all the available animals for adoption. He can also approve/Deny
+ Donor: can signup the form and list all the available animals for adoption. He can also approve/Deny
 requests of Adopter
-# Animals: Non-functional role. the animals are used as an entity but cannot perform functionalities
+Animals: Non-functional role. the animals are used as an entity but cannot perform functionalities
